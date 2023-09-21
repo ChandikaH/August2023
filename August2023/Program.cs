@@ -12,6 +12,7 @@ driver.Navigate().GoToUrl("http://horse.industryconnect.io/Account/Login?ReturnU
 IWebElement usernameTextbox = driver.FindElement(By.Id("UserName"));
 usernameTextbox.SendKeys("hari");
 
+// adding a comment
 //Identify password textbox and enter valid password
 IWebElement passwordTextbox = driver.FindElement(By.Id("Password"));
 passwordTextbox.SendKeys("123123");
